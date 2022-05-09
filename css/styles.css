@@ -14,6 +14,7 @@ body{
     font-family: var(--main-font);
     font-size: 14px;
     color: var(--txt-cl);
+    
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -21,7 +22,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .container{
-    outline: 1px solid red;
+    
     width: 1200px ;
 
     padding-left: 15px;
@@ -122,11 +123,13 @@ h1,h2,h3,h4,h5,h6,p{
 
 .hero{
     background: var(--secondary-bg-cl);
+    padding-top: 200px;
+    padding-bottom: 200px;
+
 }
 .hero-container{
    text-align: center;
-   padding-top: 200px;
-   padding-bottom: 200px;
+   
 }
 
 .title-hero{
@@ -184,16 +187,19 @@ h1,h2,h3,h4,h5,h6,p{
 
 .features-main{
     display: flex;
+    
+}
+
+.features-post{
     padding-top: 94px;
     padding-bottom: 94px;
-    
-    
 }
 
 
 .features-item{
     flex-basis: calc((100% - 90px) / 4);
     margin-right: 30px;
+
 }
    
 .features-item:last-child{
@@ -215,16 +221,20 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 1.71;
     color: var(--txt-cl);
 
-    
+    letter-spacing: 3%;
     
 }
 
 .caption-list{
     display: flex;
-   padding-bottom: 94px;
+   
    
 }
 
+.caption-post{
+    padding-bottom: 94px;
+    
+}
 
 
 
@@ -249,10 +259,11 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-.team-container{
+.team-post{
     padding-top: 94px;  
     padding-bottom: 94px;
 }
+
 .team-tittle{
     font-weight: 700;
     font-size: 36px;
@@ -304,8 +315,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .footer-conteiner{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    
     
 }
 .footer-logo{
@@ -317,26 +327,29 @@ h1,h2,h3,h4,h5,h6,p{
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-decoration: none;
-
-}
-
-.footer-info{
-    margin-top: 20px;
-    margin-bottom: 9px;
     
+    display: inline-block;
+    margin-bottom: 20px;
 }
+
+
+    
+
 .page-footer{
     background: var(--secondary-bg-cl);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-.footer-info:last-child{
-    margin-bottom: 0px;
-}
+
+
 .adress-info{
     font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+
+    margin-bottom: 9px;
 }
 .footer-contacts{
     font-style: normal;
@@ -345,6 +358,13 @@ h1,h2,h3,h4,h5,h6,p{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     
+    display: inline-block;
+    margin-bottom: 9px;
+    
+}
+
+.footer-contacts:last-child{
+    margin-bottom: 0px;
 }
 
 .filter-main{
@@ -355,10 +375,11 @@ h1,h2,h3,h4,h5,h6,p{
     
 }
 
-.filter-container{
+.filter-post{
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .btn-filter{
     font-weight: 500;
     font-size: 16px;
@@ -370,11 +391,12 @@ h1,h2,h3,h4,h5,h6,p{
     font-family: inherit;
     
    
-   
+   padding: 6px 22px;
 }
 
 .btn-item{
     margin-right: 8px;
+    
         
 }
 
@@ -403,6 +425,9 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 30px;
 
     flex-basis: calc((100% - 90px) / 3);
+    Align: Inside;
+    Width: 1px ;
+    border: solid  #EEEEEE;
 
 }
 
