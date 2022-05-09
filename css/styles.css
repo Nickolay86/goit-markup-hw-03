@@ -425,9 +425,8 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 30px;
 
     flex-basis: calc((100% - 90px) / 3);
-    Align: Inside;
-    Width: 1px ;
-    border: solid  #EEEEEE;
+    
+    
 
 }
 
@@ -437,6 +436,8 @@ h1,h2,h3,h4,h5,h6,p{
     padding-right: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
+
+    border: 1px solid #EEEEEE;
 }
 .filter-item{
     font-weight: 700;
