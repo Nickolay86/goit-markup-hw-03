@@ -82,10 +82,14 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 0;
 }
 
+.header-post{
+    border-bottom: 1px solid #ECECEC;
+}
+
 .header-container {
     display: flex;
     align-items: center;
-    border: 1px solid #ECECEC;
+    
     
 }
 .link:hover,
@@ -159,8 +163,10 @@ h1,h2,h3,h4,h5,h6,p{
 
   
     border-radius: 4px;
-    padding: 10px, 32px;
-
+    
+    
+    width: 200px;
+    height: 50px;
 
     
 
@@ -199,6 +205,7 @@ h1,h2,h3,h4,h5,h6,p{
 .features-item{
     flex-basis: calc((100% - 90px) / 4);
     margin-right: 30px;
+    
 
 }
    
@@ -221,7 +228,7 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 1.71;
     color: var(--txt-cl);
 
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     
 }
 
